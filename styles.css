@@ -1,0 +1,356 @@
+/* MAIN BACKGROUND */
+
+.body {
+    font-family: 'Lato', sans-serif;
+    color: #545454;
+    font-size: 14px;
+}
+
+@media (min-width: 1360px) {
+    .main-wrapper {
+        width: 1290px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-wrapper {
+        width: 1040px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-wrapper {
+        width: 820px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+div {
+    display: block;
+}
+
+
+/* Background */
+
+.main-wrapper {
+    position: absolute;
+    vertical-align: center;
+    width: 1290px;
+    height: 1080px;
+    left: 75px;
+    top: 0px;
+    bottom: 0px;
+    background: #ffffff;
+    box-shadow: 0 0 50px rgb(0 0 0 / 13%);
+}
+
+.container {
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    width: 1140px;
+    height: 1080px;
+    left: 75px;
+    top: 0px;
+    bottom: 0px;
+    background: #ffffff
+}
+
+.container-fluid {
+    background-color: #e7e7e7;
+}
+
+
+/* Row and col */
+
+.row {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col-md-3 {
+    background: #ffffff;
+}
+
+.col-md-12 {
+    background: #ffffff;
+}
+
+
+/* Header*/
+
+ ::before {
+    box-sizing: border-box;
+}
+
+ ::after {
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.tagline {
+    text-align: center;
+}
+
+.tagline p:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+    width: 20px;
+    height: 4px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.tagline p {
+    color: #646464;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    position: relative;
+    padding-top: 0px;
+    padding-right: 26px;
+    padding-bottom: 0px;
+    padding-left: 26px;
+}
+
+.tagline p:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    margin-top: -1px;
+    width: 20px;
+    height: 4px;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+
+/* Navbar */
+
+.navbar {
+    margin: 0;
+    border: 0;
+    height: 68px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navbar-nav>.active>a {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-nav>li>a {
+    color: #000;
+    font-size: 11px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 27px;
+    padding-right: 27px;
+    letter-spacing: 0.16em;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+/* Skills blocks */
+
+.card-body {
+    height: 270px;
+}
+
+.card-body>h1 {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    color: #5C6244;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.16em;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-body>p {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000000;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    border-top-color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: content-box;
+    height: 0;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.6em;
+    overflow: hidden;
+    border-width: 1px;
+}
+
+
+/* Copyright 2019-2021 MNKY GRAPHICS*/
+
+.footer {
+    bottom: 0;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.footer-copyright {
+    text-align: left;
+    color: #000;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+}
+
+
+/* Social media links*/
+
+.float-right {
+    float: right!important;
+    bottom: 0;
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    bottom: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.social-links>li {
+    padding-left: 20px;
+}
+
+
+/* Social media icons on a Contact page*/
+
+.social-icons {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.social-icons>li {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/* Text About-Contact*/
+
+.about-text {
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-block {
+    background-color: #ffffff;
+}
+
+.contact-text {
+    color: #000000;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 120px;
+    padding-left: 30px;
+}
