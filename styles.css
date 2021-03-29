@@ -1,105 +1,24 @@
-/* MAIN BACKGROUND */
-
 .body {
     font-family: 'Lato', sans-serif;
     color: #545454;
     font-size: 14px;
 }
 
-@media (min-width: 1360px) {
-    .main-wrapper {
-        width: 1290px;
-    }
-}
-
-@media (min-width: 992px) {
-    .main-wrapper {
-        width: 1040px;
-    }
-}
-
-@media (min-width: 768px) {
-    .main-wrapper {
-        width: 820px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-div {
-    display: block;
-}
-
 
 /* Background */
 
 .main-wrapper {
-    position: absolute;
-    vertical-align: center;
-    width: 1290px;
-    height: 1080px;
-    left: 75px;
-    top: 0px;
-    bottom: 0px;
     background: #ffffff;
-    box-shadow: 0 0 50px rgb(0 0 0 / 13%);
 }
 
 .container {
-    position: absolute;
-    padding-left: 0;
-    padding-right: 0;
-    width: 1140px;
-    height: 1080px;
-    left: 75px;
-    top: 0px;
-    bottom: 0px;
-    background: #ffffff
+    background: #ffffff;
+    box-shadow: 0 0 50px rgb(0 0 0 / 13%);
+    min-height: 100vh;
 }
 
-.container-fluid {
+.content-bg {
     background-color: #e7e7e7;
-}
-
-
-/* Row and col */
-
-.row {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-12 {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.col-md-3 {
-    background: #ffffff;
-}
-
-.col-md-12 {
-    background: #ffffff;
 }
 
 
@@ -189,6 +108,16 @@ div {
     cursor: pointer;
 }
 
+.navbar-toggler-icon {
+    padding: .75rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #000000;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -209,6 +138,10 @@ div {
     float: none;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
 .navbar-nav>li>a {
     color: #000;
     font-size: 11px;
@@ -226,13 +159,9 @@ div {
 
 /* Skills blocks */
 
-.card-body {
-    height: 270px;
-}
-
 .card-body>h1 {
     padding-top: 23px;
-    padding-bottom: 23px;
+    padding-bottom: 40px;
     color: #5C6244;
     text-align: center;
     font-size: 24px;
@@ -250,6 +179,7 @@ div {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    padding-bottom: 60px;
 }
 
 hr {
@@ -345,12 +275,18 @@ a {
 
 .text-block {
     background-color: #ffffff;
+    margin-top: 200px;
 }
 
 .contact-text {
     color: #000000;
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Lato', sans-serif;
     padding-top: 120px;
     padding-left: 30px;
+}
+
+.about-bg {
+    background: url(Portfolio/mnkycitymural.png) no-repeat center;
+    background-size: cover;
 }
